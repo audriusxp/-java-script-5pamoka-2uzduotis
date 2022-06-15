@@ -8,11 +8,12 @@ console.log(sandauga);
 
 }
 function masyvoSandauga(testinis){
+    let sandauga = 1;
     for (let i = 0; i < testinis.length; i++) {
-       
-        sandauga =  i * testinis.length ;
+      
+        sandauga = sandauga * testinis[i];
         
-        
+          
     }
-    return sandauga
+    return sandauga;
 }
